@@ -1,0 +1,62 @@
+.container {
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.inbox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.inbox__messages {
+  max-width: 500px;
+  width: 100%;
+  color: white;
+}
+
+.message_form {
+  text-align: right;
+  margin: 5px 30px;
+}
+
+.outgoing__message {
+  background-color: #007345;
+  text-align: right;
+  border-radius: 41px;
+  padding: 5px 30px 10px 0px;
+  margin-bottom: 5px;
+}
+
+.incoming__message {
+  background-color: #111c3d;
+  border-radius: 41px;
+  padding: 5px 0px 10px 30px;
+  margin-bottom: 5px;
+}
+
+.message__info {
+  font-size: 12px;
+}
+
+.message_form__input {
+  height: 25px;
+  font-size: 13px;
+  text-align: left;
+  padding-left: 10px;
+  letter-spacing: 0.5px;
+  border: 2px solid #579ec7b0;
+  border-radius: 50px;
+}
+
+.message_form__button {
+  height: 30px;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  border: 2px solid #579ec7b0;
+  border-radius: 50px;
+}
